@@ -26,12 +26,42 @@ body {
 .avatar {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     margin-right: 10px;
 }
 
 .username {
     font-weight: bold;
+    position: relative;
+    right: -2px;
+    top: -9px;
+}
+
+.dots {
+    width: 12px;
+    position: relative;
+    top: 0em;
+    left: 27em;
+    padding-top: 0;
+}
+
+.bookmark {
+    position: relative;
+    left: 534px;
+}
+
+.usuario {
+    width: 12px;
+    position: relative;
+    top: 3px;
+    left: -51px;
+    padding-top: 5px;  
+}
+
+
+.bookmark {
+    font-size: 10px;
+    position: relative;
+    left: 471px;
 }
 
 .post-image {
@@ -41,12 +71,7 @@ body {
 }
 
 .post-footer {
-    padding: 10px;
-}
-
-.likes {
-    font-weight: bold;
-    margin-bottom: 5px;
+    padding: 27px;
 }
 
 .caption {
@@ -61,4 +86,32 @@ body {
 .likes_for {
     font-weight: bold;
     width: 50%;
+    margin-top: -78px;
+}
+
+.heart-icon {
+    font-size: xx-large;
+    position: relative;
+    right: 2px;
+}
+
+.paper-plane {
+    font-size: xx-large;
+    position: relative;
+    left: 79px;
+    bottom: 35px;
+}
+
+.comment {
+    font-size: xx-large;
+    position: relative;
+    left: 40px;
+    bottom: 73px;
+}
+
+.bookmark {
+    font-size: xx-large;
+    position: relative;
+    left: 512px;
+    bottom: 110px;
 }
